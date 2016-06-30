@@ -146,6 +146,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Demon.h" />
+    <ClInclude Include="Ghost.h" />
+    <ClInclude Include="Monster.h" />
+    <ClInclude Include="Spawner.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Demon.cpp" />
+    <ClCompile Include="mainProc.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
